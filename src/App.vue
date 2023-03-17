@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="less">
-  * {
+  html, body, h1, p {
     margin: 0;
     padding: 0;
   }

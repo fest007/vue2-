@@ -1,7 +1,7 @@
 <template>
     <div>
         <el-container>
-            <el-aside width="200px">
+            <el-aside width="auto">
                 <common-aside />
             </el-aside>
             <el-container>
@@ -40,5 +40,9 @@ import CommonHeader from '@/components/CommonHeader.vue'
 <style>
     .el-header {
         padding: 0;
+    }
+
+    .el-menu {
+        border-right: none;
     }
 </style>

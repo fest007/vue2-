@@ -32,7 +32,7 @@ export default {
     }
 }
 </script>
-<style lang="less">
+<style lang="less" scoped>
     .header-container {
         padding-left: 20px;
         background-color: #333;
